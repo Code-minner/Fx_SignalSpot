@@ -90,9 +90,9 @@ ScrollReveal({
     delay: 400
 });
 
-ScrollReveal().reveal('.upper li', { delay: 100, origin: 'top', interval: 200, distance: '60px', duration: 2000,reset: false});
-ScrollReveal().reveal('.left', { delay: 100, origin: 'left', interval: 200, distance: '60px', duration: 2000,reset: false});
-ScrollReveal().reveal('.right', { delay: 100, origin: 'right', interval: 200, distance: '60px', duration: 3000,reset: false });
+ScrollReveal().reveal('.upper li', {origin: 'top', interval: 200, distance: '60px', duration: 2000,reset: false});
+ScrollReveal().reveal('.left', { origin: 'left', interval: 200, distance: '60px', duration: 2000,reset: false});
+ScrollReveal().reveal('.right', { origin: 'right', interval: 200, distance: '60px', duration: 3000,reset: false });
 ScrollReveal().reveal('.content_four_sub_container .content_four_sub_container_details', { origin: 'bottom', interval: 300, distance: '60px', duration: 1000,reset: false });
 
 
